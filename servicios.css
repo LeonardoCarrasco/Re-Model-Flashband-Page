@@ -1,0 +1,183 @@
+
+.fibra-optica, .wifi-services{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.fibra-optica .fibra-card, .wifi-services .wifi-card{
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.3s;
+    width: 320px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.20);
+    line-height: 1.6;
+}
+
+
+.fibra-optica .fibra-card:hover, .wifi-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 2px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.fibra-optica .fibra-card .title, .card-btn, .wifi-card .title{
+    color: #FFF;
+}
+
+.wifi-services .title-wifi{
+    margin: 20px 100px;
+}
+
+.wifi-services .title-wifi h1{
+    padding: 20px;
+    text-align: center;
+    line-height: 1.7;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+/* ////////////////////// COLORS CARDS ///////////////////////// */
+
+.bronze .title, .bronze .card-btn{
+    background: rgb(148,93,39);
+    background: linear-gradient(52deg, rgba(148,93,39,1) 0%, rgba(221,136,53,1) 100%);
+}
+
+.silver .title, .silver .card-btn{
+    background: rgb(119,119,119);
+    background: linear-gradient(52deg, rgba(119,119,119,1) 0%, rgba(198,198,198,1) 100%);
+}
+
+.gold .title, .gold .card-btn{
+    background: rgb(205,177,23);
+    background: linear-gradient(52deg, rgba(205,177,23,1) 0%, rgba(242,215,64,1) 100%);
+}
+
+/* ///////////// WIFI SERVICES ///////////// */
+
+.wifi-card .title, .wifi-card .card-btn{
+    background: rgb(134,0,0);
+    background: linear-gradient(93deg, rgba(134,0,0,1) 0%, rgba(255,23,23,1) 100%);
+}
+
+/* 
+
+////////////////////////////////////////////////////////
+
+*/
+
+.fibra-optica .fibra-card .sup-title, .wifi-card .sup-title{
+    padding: 12px 0;
+    border-radius: 30px 10px
+}
+
+.fibra-card .sup-title h2, .wifi-card .sup-title h2{
+    letter-spacing: 6px;
+    font-size: 2rem;
+}
+
+.fibra-card .sup-title h4, .wifi-card .sup-title h4{
+    font-size: 1.5rem;
+}
+
+.fibra-card .container-text, .wifi-card .container-text{
+    padding: 15px;
+    font-size: .9rem;
+}
+
+.fibra-card .text-1, .wifi-card .text-1{
+    text-align: inherit;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.fibra-card .text-2, .wifi-card .text-2{
+    text-align: start;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.fibra-card .card-btn, .wifi-card .card-btn{
+    border-radius: 8px;
+    width: 50%;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 2.5;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+}
+
+.fibra-card .card-btn:hover, .wifi-card .card-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+}
+
+.extra-data{
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(209 209 209 / 68%);
+    /* background: rgb(156,29,29);
+    background: linear-gradient(229deg, rgba(156,29,29,1) 0%, rgba(255,0,0,1) 100%); */
+}
+
+.extra-data .text{
+    margin: 0 200px;
+    /* background-color: #f2d740; */
+    background-color: rgba(255,255,255,.12);
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(26, 26, 99);
+}
+
+.extra-data .text h1{
+    margin-bottom: 20px;
+}
+
+.extra-data .text p{
+    line-height: 1.7;
+}
+
+
+
+@media screen and (max-width:992px){
+
+    .fibra-optica .fibra-card, .wifi-card{
+        width: 260px;
+    }
+
+    .fibra-optica{
+        justify-content: space-evenly;
+    }
+
+    .extra-data .text{
+        margin: 0;
+    }
+}
+
+@media  screen and (max-width:768px){
+
+    .fibra-optica .fibra-card, .wifi-card{
+        width: 350px;
+    }
+
+    .wifi-services .title-wifi {
+        margin: 20px 0px;
+        color: #5a5a5a;
+    }
+
+    .wifi-services .title-wifi h1{
+        font-size: 1.2rem;
+    }
+}
