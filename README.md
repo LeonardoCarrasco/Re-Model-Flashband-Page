@@ -1,6 +1,6 @@
 # Re-model Flashband page
 
-[here is the link of the web](https://leonardocarrasco.github.io/Re-Model-Flashband-Page/)
+[Here is the link of the web](https://leonardocarrasco.github.io/Re-Model-Flashband-Page/)
 
 [**Flashband**](https://www.flashband-internet.com/) is a internet service provider from Argentina.
 
@@ -9,7 +9,7 @@ I have entered the page and it did not look good, it did not convey security, so
 ## This is how it looks
 ----
 
-![flashband internet website](flashband\flashband.png)
+![flashband internet website](./flashband\flashband.png)
 
 ----
 
@@ -17,12 +17,12 @@ I have entered the page and it did not look good, it did not convey security, so
 
 ### Desktop design
 ---
-![deskotp figma](flashband\desktop.png)
+![deskotp figma](./flashband\desktop.png)
 ---
 
 ### Mobile design
 ---
-![mobile figma](flashband\mobile.png)
+![mobile figma](./flashband\mobile.png)
 --- 
 
 This designs were just to set the design i wanted to make, so in the final design i made it some changes according to what i was seeing. 
